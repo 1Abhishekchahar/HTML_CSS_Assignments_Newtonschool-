@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Insurance Form</title>
+</head>
+<body>
+    <form method="post" id="my-form">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="myName" id="name" placeholder="Abhishek" required>
+        </div>
+        <br/>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="myEmail" id="email" placeholder="email@domain.ext" required>
+        </div>
+        <br/>
+        <div>
+            <input type="radio" name="gender" id="gender_m" value="male" required/>Male
+            <label for="gender">M</label>
+                <input type="radio" name="gender" id="gender_f" value="female" required/>Female
+                <label for="gender">F</label>
+        </div>
+        <br/>
+        <div>
+            <label for="cars">Choose your car</label>
+            <select name="cars" id="cars" required>
+                <option value="BMW">BMW</option>
+                <option value="Audi">Audi</option>
+                <option value="Mercerdes">Mercedes</option>
+            </select>
+        </div>
+        <br/>
+        <div>
+            <label for="carage">Car Age:</label>
+            <input type="number" id="carage" required>
+        </div>
+        <br/>
+        <div>
+            <label for="dop">Date of purchase</label>
+            <input type="date" id="dop" required>
+        </div>
+        <br/>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="password" required>
+        </div>
+        <br/>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+        <br/>
+    </form>
+</body>
+</html>

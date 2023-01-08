@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job App Form</title>
+</head>
+<body>
+    <form method="post">
+    <div>
+        <label for="name">Name</label>
+        <input type="text" name="myName" id="name" placeholder="Abhishek" required>
+    </div>
+    <br/>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="myEmail" id="email" placeholder="email@domain.ext" required>
+    </div>
+    <br/>
+    <div>
+        <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="gender" value="male" required/>Male
+            <input type="radio" name="gender" id="gender" value="female" required/>Female
+    </div>
+    <br/>
+    <div>
+        <label for="laptop">Laptop Brands</label>
+        <select name="laptop" id="laptop" required>
+            <option value="Apple">Apple</option>
+            <option value="Asus">Asus</option>
+            <option value="HP">HP</option>
+        </select>
+    </div>
+    <br/>
+    <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" placeholder="24" required>
+    </div>
+    <br/>
+    <div>
+        <label for="dob">DOB</label>
+        <input type="date" name="DOB" id="dob" required>
+    </div>
+    <br/>
+    <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="password" required>
+    </div>
+    <br/>
+    <div>
+        <label for="portfolio">URL</label>
+        <input type="url" name="URL" id="portfolio" placeholder="link portfolio website" required>
+    </div>
+    <br/>
+    <div>
+        <button type="submit" value="submit">Submit</button>
+    </div>
+    <br/>
+</form>
+</body>
+</html>
