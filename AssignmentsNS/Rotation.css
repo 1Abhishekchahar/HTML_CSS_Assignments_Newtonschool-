@@ -1,0 +1,16 @@
+#box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: transform 2s;
+    transform: rotate(0deg);
+    }
+    #box:hover {
+    transform: rotate(180deg); 
+    }
+   #box:hover:hover {
+    transform: rotate(0deg);
+    }
+    #box:hover:hover:hover {
+    transform: rotate(180deg);
+    }
