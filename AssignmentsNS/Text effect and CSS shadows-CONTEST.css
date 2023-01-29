@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0
+}
+
+div{
+    height:10px;
+    border:5px solid red;
+    margin:50px;
+    padding:10px;
+    white-space: nowrap;
+    /* uncomment the below line */
+    /* overflow: hidden; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 2px 2px 5px rgb(255, 0, 0);
+
+}
